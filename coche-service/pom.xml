@@ -45,6 +45,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+		
+		
 		<!-- Dependencias para servidor/cliente en git -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
